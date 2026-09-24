@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             TourColabTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "application",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
